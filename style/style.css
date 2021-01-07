@@ -1,0 +1,561 @@
+@import'fonts.css';
+
+:root {
+    /* color */
+    --white: white;
+    --green: #68cd16;
+    --lihgtgreen: #68bf3b;
+    --darkgreen: #4a9b07;
+    --menugreen: #428e03;
+    --h2green: #68bf3b;
+    --gray: #a6a6a6;
+    --textgray: #bdbdbd;
+    --menyu: #e1f5d0;
+    --dark: #060503;
+    /* color */
+    --MBl: 'MBl';
+    --MB: 'MB';
+    --ML: 'ML';
+    --MR: 'MR';
+    --MT: 'MT';
+
+    /* col */
+    --col-1: calc(100% / 12);
+    --col-2: calc(100% / 12 *2);
+    --col-3: calc(100% / 12 *3);
+    --col-4: calc(100% / 12 *4);
+    --col-5: calc(100% / 12 *5);
+    --col-6: calc(100% / 12 *6);
+    --col-7: calc(100% / 12 *7);
+    --col-8: calc(100% / 12 *8);
+    --col-9: calc(100% / 12 *9);
+    --col-10: calc(100% / 12 *10);
+    --col-11: calc(100% / 12 *11);
+    --col-12: calc(100%);
+    /* col */
+
+    /* T */
+
+    /* T */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    font-family: var(--MR);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col-1 {
+    width: var(--col-1);
+    padding: 0 15px;
+}
+
+.col-2 {
+    width: var(--col-2);
+    padding: 0 15px;
+}
+
+.col-3 {
+    width: var(--col-3);
+    padding: 0 15px;
+}
+
+.col-4 {
+    width: var(--col-4);
+    padding: 0 15px;
+}
+
+.col-5 {
+    width: var(--col-5);
+    padding: 0 15px;
+}
+
+.col-6 {
+    width: var(--col-6);
+    padding: 0 15px;
+}
+
+.col-7 {
+    width: var(--col-7);
+    padding: 0 15px;
+}
+
+.col-8 {
+    width: var(--col-8);
+    padding: 0 15px;
+}
+
+.col-9 {
+    width: var(--col-9);
+    padding: 0 15px;
+}
+
+.col-10 {
+    width: var(--col-10);
+    padding: 0 15px;
+}
+
+.col-11 {
+    width: var(--col-11);
+    padding: 0 15px;
+}
+
+.col-12 {
+    width: var(--col-12);
+    padding: 0 15px;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-start {
+    align-items: flex-start;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-end {
+    align-items: flex-end;
+}
+
+
+.flex-column {
+    flex-direction: column;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+.mh-100 {
+    min-height: 100vh;
+}
+
+/* header stast */
+.header {
+    background: url(../img/header_bg.jpg) no-repeat center center /cover;
+}
+
+.logo {
+    font-size: 24px;
+    color: var(--white);
+    line-height: 17px;
+    padding-top: 47px;
+    font-family: var(--MB);
+}
+
+.number {
+    padding-top: 47px;
+    display: inline-block;
+    color: var(--white);
+    font-size: 24px;
+    line-height: 23px;
+    font-family: var(--MR);
+}
+
+.tel {
+    background: var(--lihgtgreen);
+    display: inline-block;
+    padding: 18px 27px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 16px;
+    line-height: 11px;
+    border-radius: 24px;
+    color: var(--white);
+    font-family: var(--MR);
+}
+
+.header h2 {
+    font-size: 18px;
+    color: var(--white);
+    line-height: 16px;
+    text-transform: uppercase;
+    font-family: var(--MBl);
+}
+
+h1 {
+    font-size: 72px;
+    line-height: 62px;
+    color: var(--white);
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-family: var(--MBl);
+}
+
+.header p {
+    font-size: 18px;
+    line-height: 13px;
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+.full-menu {
+    background: var(--darkgreen);
+    display: inline-block;
+    padding: 18px 27px 17px 26px;
+    line-height: 11px;
+    border-radius: 24px;
+    color: var(--white);
+    width: max-content;
+    margin-top: 50px;
+    max-width: 200px;
+    width: 100%;
+    padding: 18px 27px 17px 26px;
+    text-align: center;
+}
+
+.menu {
+    color: var(--menyu);
+    text-transform: uppercase;
+    font-size: 36px;
+    margin-top: 67px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* header end */
+/* ************************* */
+/* main start */
+.main-content h2 {
+    color: var(--h2green);
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 26px;
+    margin-bottom: 64px;
+    font-family: var(--MB);
+}
+
+.main-content p {
+    font-size: 18px;
+    line-height: 36px;
+    color: var(--textgray);
+    text-align: justify;
+}
+
+.main-content h3 {
+    color: var(--textgray);
+    font-size: 24px;
+    line-height: 18px;
+    margin-right: 47px;
+    font-family: var(--MB);
+}
+
+.main__menu {
+    margin-top: 50px;
+}
+
+.mmm {
+    margin-top: 26px;
+    margin-left: 30px;
+}
+
+.main {
+    padding-top: 87px;
+    padding-bottom: 100px;
+}
+
+.main-combo {
+    position: relative;
+}
+
+.procent {
+    font-size: 18px;
+    line-height: 13px;
+    color: var(--white);
+    background: var(--green);
+    padding: 23px 8px 24px 7px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    border-radius: 50%;
+    font-family: var(--MB);
+}
+
+.main-recept {
+    margin-left: 32px;
+}
+
+.main-recept h2 {
+    font-size: 30px;
+    line-height: 22px;
+    color: var(--gray);
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.main-recept p {
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--textgray);
+}
+
+.main-price h2 {
+    font-size: 30px;
+    margin-top: 46px;
+    margin-bottom: 28px;
+    color: var(--gray);
+    font-family: var(--MB);
+}
+
+span {
+    font-size: 18px;
+    line-height: 14px;
+    font-family: var(--ML);
+}
+
+.main-price a {
+    background: var(--darkgreen);
+    display: inline-block;
+    max-width: 200px;
+    width: 100%;
+    padding: 18px 27px 17px 26px;
+    text-align: center;
+    border-radius: 25px;
+    color: var(--white);
+}
+
+.main-chef {
+    margin-top: 150px;
+}
+
+.main-otzov {
+    text-align: center;
+}
+
+.main-chef img:nth-of-type(2) {
+    margin: 0 30px;
+}
+
+.main-otzov h2 {
+    font-size: 14px;
+    line-height: 12px;
+    color: var(--gray);
+    margin-top: 28px;
+    margin-bottom: 19px;
+    font-family: var(--MB);
+}
+
+.main-otzov p {
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--textgray);
+}
+
+
+
+
+
+
+
+/* main end */
+/* ************************ */
+/* footer star */
+.footer {
+    background: var(--dark);
+    padding-bottom: 55px;
+}
+
+.footer p {
+    color: var(--textgray);
+    text-align: center;
+    font-size: 14px;
+    line-height: 11px;
+    font-family: var(--MT);
+}
+
+.footer_nav {
+    margin-bottom: 50px;
+    padding-top: 47px;
+}
+
+.footer_nav .logo {
+    font-size: 24px;
+    color: var(--white);
+    line-height: 17px;
+    font-family: var(--MB);
+}
+
+
+
+
+/* footer end */
+/* **************** */
+
+/* mobile start */
+@media(max-width:1152px) {
+    .header_nav {
+        flex-direction: column;
+    }
+
+    .tel {
+        margin-left: 0;
+    }
+
+
+
+    .lll {
+        align-items: center;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer_nav {
+        flex-direction: column;
+    }
+
+    .bbb {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media(max-width:1133px) {
+    .fff {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-chef img {
+        width: 100%;
+    }
+
+    .main-chef {
+        margin-top: 15px;
+    }
+
+    .main__preview-img {
+        width: 100%;
+    }
+
+    .ttt {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media(max-width:1002px) {
+    .main__menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-combo {
+        flex-direction: column;
+    }
+
+    .main-recept h2 {
+        margin-top: 15px;
+    }
+
+    .main-recept {
+        margin-left: 0;
+    }
+
+    .main-content {
+        flex-direction: column;
+
+    }
+
+    .main-content img {
+        width: 100%;
+    }
+
+    .totti img {
+        width: 100%;
+    }
+
+    .totti {
+        flex-direction: column;
+    }
+
+
+}
+
+@media(max-width:880px) {
+    .main-content h2 {
+        text-align: center;
+        font-size: 25px;
+    }
+}
+
+@media(max-width:648px) {
+    h1 {
+        font-size: 50px;
+    }
+    .totti h3{
+        margin-right: 0;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+@media(max-width:464px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    .lll h2 {
+        font-size: 15px;
+    }
+
+    .main-recept h2 {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    .main-recept {
+        text-align: center;
+    }
+}
+
+/* mobile end  */
+/* ************************ */
